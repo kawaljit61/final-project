@@ -1,0 +1,44 @@
+header {
+  text-align: center;
+}
+
+#console-picture, #game-picture {
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+}
+
+section {
+  display: inline-block;
+}
+
+.ps3 {
+  background-image: url(../images/ps3-console.jpg)
+}
+.ps4 {
+  background-image: url(../images/ps4-console.jpg)
+}
+.xbox-360 {
+  background-image: url(../images/xbox-360.jpg)
+}
+.xbox-one {
+  background-image: url(../images/xbox-one.png)
+}
+
+.alien-isolation {
+  background-image: url(../images/alien-isolation.jpg)
+}
+.assassins-creed {
+  background-image: url(../images/assassins-creed.jpg)
+}
+.battlefield-4 {
+  background-image: url(../images/battlefield-4.jpg)
+}
+
+.hide {
+  display: none;
+}
