@@ -1,4 +1,36 @@
+body {
+  background: #00C9FF;
+  background: -webkit-linear-gradient(to left, #00C9FF , #92FE9D);
+  background: linear-gradient(to left, #00C9FF , #92FE9D);
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+}
+
 header {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: 'Patua One', cursive;
+  letter-spacing: 1px;
+  font-size: 48px;
+  text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 20px;
+  color: #2b2b2b;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -9,13 +41,19 @@ header {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
-  border: 1px solid black;
+  border-radius: 10px;
 }
 
 section {
   display: inline-block;
+  margin-bottom: 10px;
 }
 
+.hide {
+  display: none;
+}
+
+/* Consoles */
 .ps3 {
   background-image: url(../images/ps3-console.jpg)
 }
@@ -29,6 +67,7 @@ section {
   background-image: url(../images/xbox-one.png)
 }
 
+/* Games */
 .alien-isolation {
   background-image: url(../images/alien-isolation.jpg)
 }
@@ -38,7 +77,24 @@ section {
 .battlefield-4 {
   background-image: url(../images/battlefield-4.jpg)
 }
-
-.hide {
-  display: none;
+.call-of-duty {
+  background-image: url(../images/call-of-duty.jpg)
+}
+.fifa-15 {
+  background-image: url(../images/fifa-15.jpg)
+}
+.just-dance-2015 {
+  background-image: url(../images/just-dance-2015.jpg)
+}
+.sports-champions {
+  background-image: url(../images/sports-champions.jpg)
+}
+.two-souls {
+  background-image: url(../images/two-souls.jpg)
+}
+.guitar-hero {
+  background-image: url(../images/guitar-hero.png)
+}
+.mafia-2 {
+  background-image: url(../images/mafia-2.jpg)
 }

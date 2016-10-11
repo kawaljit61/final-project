@@ -5,37 +5,31 @@
     <title>Game Price Calculator</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Patua+One" rel="stylesheet">  </head>
   <body>
     <header>
       <h1>Game Price Calculator</h1>
-      <p>Select your favorite console to start</p>
+      <h2>Select your favorite console and game!</h2>
     </header>
 
-    <section>
-      <select id="console-type">
-  			<option>Select a Console</option>
-  		</select>
-      <div id="console-picture"></div>
-    </section>
-
-    <section class="ps-games">
-      <select id="game-type">
-  			<option>Select a Game</option>
-  		</select>
-      <div id="game-picture"></div>
-    </section>
-
-    <section class="xbox-games hide">
-      <select id="game-type">
-  			<option>Select a Game</option>
-  		</select>
-      <div id="game-picture"></div>
-    </section>
-
-    <h2 id="show-price"></h2>
+    <div class="container">
+      <section>
+        <select id="console-type">
+    			<option>Select a Console</option>
+    		</select>
+        <div id="console-picture"></div>
+      </section>
+      <section>
+        <select id="game-type">
+    			<option>Select a Game</option>
+    		</select>
+        <div id="game-picture"></div>
+      </section>
+      <h2 id="show-price"></h2>
+    </div>
 
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
+    </script>
   </body>
 </html>
